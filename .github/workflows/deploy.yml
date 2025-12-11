@@ -17,6 +17,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: 22
           script: |
+            export PATH=$PATH:/root/.nvm/versions/node/v20.19.6/bin
             cd /root/besthoustunchiros
             git pull origin main
             npm install
