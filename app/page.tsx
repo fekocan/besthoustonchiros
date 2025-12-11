@@ -10,8 +10,8 @@ export const dynamic = 'force-dynamic';
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: 'HTX Therapists - Find Trusted Mental Health Professionals',
-  description: 'Find licensed therapists and mental health professionals across the Houston metro area. Quality care for anxiety, depression, couples therapy, and more.',
+  title: 'Best Houstun Chiros - Find Trusted Chiropractors',
+  description: 'Find licensed chiropractors and wellness professionals across the Houston metro area. Quality care for back pain, neck pain, sports injuries, and more.',
 };
 
 export default async function HomePage() {
