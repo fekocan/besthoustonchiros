@@ -7,7 +7,7 @@ export async function GET(request: Request) {
 
   try {
     // Get city
-    const { data: city, error: cityError } = await supabase
+    const { data: city, error: cityError } = await supabase!
       .from('cities')
       .select('*')
       .eq('slug', citySlug)
@@ -18,7 +18,7 @@ export async function GET(request: Request) {
     }
 
     // Get therapists in that city
-    const { data: therapists, error: therapistError } = await supabase
+    const { data: therapists, error: therapistError } = await supabase!
       .from('therapists')
       .select('id, first_name, last_name, services, city_id')
       .eq('city_id', city.id);
@@ -45,9 +45,9 @@ export async function GET(request: Request) {
       service_count: allServices.size
     });
   } catch (error) {
-    return NextResponse.json({ 
-      error: 'Internal error', 
-      details: error 
+    return NextResponse.json({
+      error: 'Internal error',
+      details: error
     }, { status: 500 });
   }
 }

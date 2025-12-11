@@ -4,7 +4,7 @@ import { supabase } from '@/lib/supabase-server';
 export async function GET() {
   try {
     // Get all therapists with their business name and ID
-    const { data, error } = await supabase
+    const { data, error } = await supabase!
       .from('therapists')
       .select('id, google_business_id, first_name, last_name, city_id')
       .order('last_name', { ascending: true });

@@ -13,7 +13,7 @@ export async function DELETE(request: Request) {
     }
 
     // Delete the therapist by google_business_id
-    const { error, count } = await supabaseAdmin
+    const { error, count } = await supabaseAdmin!
       .from('therapists')
       .delete()
       .eq('google_business_id', businessId);

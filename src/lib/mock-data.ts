@@ -1039,7 +1039,7 @@ export const MOCK_THERAPISTS: Therapist[] = [
     "languages": [
       "English"
     ],
-    "rating": null,
+    "rating": 0,
     "review_count": 0,
     "analysis": []
   },
@@ -1067,7 +1067,7 @@ export const MOCK_THERAPISTS: Therapist[] = [
     "languages": [
       "English"
     ],
-    "rating": null,
+    "rating": 0,
     "review_count": 0,
     "analysis": []
   },
@@ -1087,7 +1087,7 @@ export const MOCK_THERAPISTS: Therapist[] = [
     "phone": "(281) 451-3111",
     "email": "",
     "website": "https://www.stabledr.com/",
-    "address": null,
+    "address": "",
     "photo": "https://lh3.googleusercontent.com/p/AF1QipPT3ix9YlAHChBo2zi6yHoMsYaT1FI0wQU8NOON=w408-h544-k-no",
     "images": [
       "https://lh3.googleusercontent.com/p/AF1QipPT3ix9YlAHChBo2zi6yHoMsYaT1FI0wQU8NOON=w408-h544-k-no"
@@ -1096,7 +1096,7 @@ export const MOCK_THERAPISTS: Therapist[] = [
     "languages": [
       "English"
     ],
-    "rating": null,
+    "rating": 0,
     "review_count": 0,
     "analysis": []
   },
@@ -1125,7 +1125,7 @@ export const MOCK_THERAPISTS: Therapist[] = [
     "languages": [
       "English"
     ],
-    "rating": null,
+    "rating": 0,
     "review_count": 0,
     "analysis": []
   },
@@ -1153,7 +1153,7 @@ export const MOCK_THERAPISTS: Therapist[] = [
     "languages": [
       "English"
     ],
-    "rating": null,
+    "rating": 0,
     "review_count": 0,
     "analysis": []
   },
