@@ -256,7 +256,7 @@ export default function ListYourPracticePage() {
                 </ul>
 
                 <a
-                  href="https://buy.polar.sh/checkout/73ebc255-f4e7-49e2-86a2-9d9cde653e88"
+                  href="https://buy.polar.sh/polar_cl_SUSu4wZQK3hT1roWkXk1nmITU5dA0ALDfKxGR3fRkoE"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full px-6 py-4 bg-slate-900 text-white rounded-lg hover:bg-slate-800 transition-colors font-semibold text-lg text-center cursor-pointer"
@@ -291,7 +291,7 @@ export default function ListYourPracticePage() {
                 </ul>
 
                 <a
-                  href="https://buy.polar.sh/checkout/1f3b0e9a-5247-4183-ab43-f6dde429465f"
+                  href="https://buy.polar.sh/polar_cl_gdugqYjvwNZ8NV4aUsnd2W0IB16S9D4V8CdkA4GRgqA"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full px-6 py-4 bg-white text-blue-600 rounded-lg hover:bg-blue-50 transition-colors font-semibold text-lg shadow-lg text-center cursor-pointer"
